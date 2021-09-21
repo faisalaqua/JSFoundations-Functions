@@ -23,11 +23,7 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
-  if (n %2 === 1){
-    return true
-  } else{
-    return false
-  }
+  return (n %2 === 1)
 }
 
 
@@ -42,11 +38,7 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
-  if (n %2 === 1){
-    return ((n-1)/2)
-  } else {
-    return (n/2)
-  }
+  return parseInt(n/2)
 }
 
 console.log(oddsSmallerThan(18))
